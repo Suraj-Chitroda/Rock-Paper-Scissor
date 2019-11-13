@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+ * {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+ }
+ header
+ {
+     background: white;
+     padding: 20px;
+ }
+ header > h1{
+    color: #25272e;
+    text-align: center;
+    font-family: Asap, sans-serif;
+ }
+body
+{
+    background: #25272e;
+}
+
+.score-board
+{
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 180px;
+    color: white;
+    font-size: 30px;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge
+{
+    background: #E2504D;
+    color: white;
+    font-size: 16px;
+    font-family: Asap, sans-serif;
+    padding: 3px 10px;
+}
+
+#user-label
+{
+    position: absolute;
+    top: 18px;
+    left: -28px;
+}
+
+#comp-label
+{
+    position: absolute;
+    top: 18px;
+    right: -30px;
+}
+
+.result
+{
+    font-size: 40px;
+    color: white;
+}
+
+.result > p
+{
+    text-align: center;
+    font-weight:bold;
+    font-family: Asap, sans-serif;
+
+}
+
+.choices
+{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.choice
+{
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.choice:hover
+{
+    cursor: pointer;
+    background: rgb(25, 28, 32);
+    
+}
+
+.all-label
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+
+.label1
+{
+    display: inline-block;
+    margin: 0 -40px;
+    padding: 0px;
+    transition: 0.1s;
+    font-weight:bold;
+    font-family: Asap, sans-serif;
+    opacity: 0;
+}
+ 
+.label2
+{
+    display: inline-block;
+    margin: 0 -40px;
+    padding: 0px;
+    opacity: 0;
+    transition: 0.1s;
+    font-weight:bold;
+    font-family: Asap, sans-serif;
+}
+.label3
+{
+    display: inline-block;
+    margin: 0 -40px;
+    padding: 0px;
+    opacity: 0;
+    transition: 0.1s;
+    font-weight:bold;
+    font-family: Asap, sans-serif;
+}
+
+
+.green-glow
+{
+    border: 2px solid lime;
+    border-radius: 50%;
+    box-sizing: inherit;
+    box-shadow: 0 0 20px green;
+}
+
+.red-glow
+{
+    border: 2px solid red;
+    border-radius: 50%;
+    box-shadow: 0 0 20px #E2504D;
+}
+
+.gray-glow
+{
+    border: 2px solid grey;
+    border-radius: 50%;
+    box-shadow: 0 0 20px gray;
+}
